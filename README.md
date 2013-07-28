@@ -13,7 +13,7 @@ You need:
 
 then:
 
-```shell
+```bash
 $ git clone https://github.com/jakebasile/go-vagrant.git $YOUR_DESIRED_GOPATH_LOCATION
 $ cd $YOUR_DESIRED_GOPATH_LOCATION
 $ vagrant up
@@ -23,7 +23,7 @@ Now you're SSHed into a server with a working, barebones Go installation and an 
 
 If you want to keep your entire GOPATH in git, you can then (in your host machine):
 
-```shell
+```bash
 $ rm -rf $YOUR_DESIRED_GOPATH_LOCATION/.{git,gitignore}
 ```
 
