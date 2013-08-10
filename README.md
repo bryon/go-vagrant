@@ -14,7 +14,7 @@ You need:
 then:
 
 ```bash
-$ git clone https://github.com/jakebasile/go-vagrant.git $YOUR_DESIRED_GOPATH_LOCATION
+$ git clone https://github.com/bryon/go-vagrant.git $YOUR_DESIRED_GOPATH_LOCATION
 $ cd $YOUR_DESIRED_GOPATH_LOCATION
 $ vagrant up
 $ vagrant ssh

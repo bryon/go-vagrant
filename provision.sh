@@ -1,10 +1,10 @@
 GO_TAR=go1.1.1.linux-amd64.tar.gz
 GO_PATH_LINE='export GOPATH=/vagrant; export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin;'
-dpkg-query -s libc6 git bzr mercurial > /dev/null 2> /dev/null
+dpkg-query -s libc6 git bzr mercurial vim > /dev/null 2> /dev/null
 if [[ $? == 1 ]]; then
     echo '------------> installing Go dependencies.'
     apt-get update > /dev/null
-    apt-get -y install bzr mercurial git libc6 > /dev/null
+    apt-get -y install bzr mercurial git libc6 vim > /dev/null
 else
     echo '------------> Go dependencies already installed.'
 fi
